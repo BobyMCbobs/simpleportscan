@@ -19,7 +19,6 @@ then
 	echo "Whoops! Something's wrong!"
 	echo
 	echo "Please install nmap using your package manager"
-	echo
 	exit
 fi
 
@@ -34,7 +33,6 @@ then
 	echo "	spc 22 192.168.1 0 64"
 	echo
 	echo "Exiting."
-	echo
 	exit
 fi
 
