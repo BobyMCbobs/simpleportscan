@@ -5,7 +5,7 @@ Simple port scanner using nmap.
   `nmap`
 
 **How to use**:  
-  sps [port] [base dhcp target] [bottom of range] [top of range]
+  `sps [port] [base dhcp target] [bottom of range] [top of range]`
 
 **Examples**:  
   **Range scan**:  
