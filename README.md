@@ -2,7 +2,7 @@
 Simple port scanner using nmap.
 
 Requirements to install via your package manager:  
-  nmap
+  `nmap`
 
 How to use:  
   sps [port] [base dhcp target] [bottom of range] [top of range]
