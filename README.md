@@ -7,8 +7,11 @@ Requirements to install via your package manager:
 How to use:  
   sps [port] [base dhcp target] [bottom of range] [top of range]
 
-Example:  
-  `sps 22 192.168.1 0 200`
+Examples:  
+  Range scan:  
+    `sps 22 192.168.1 0 200`  
+  Address scan:  
+    `sps 22 192.168.1 0`
 
 To install, run:  
   1: `git clone git://github.com/BobyMCBobs/simpleportscan.git`  
