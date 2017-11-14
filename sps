@@ -13,11 +13,10 @@ rTop=$4
 
 echo "Welcome to Simple Port Scan."
 
-if [ ! -f /usr/bin/nmap ]
+if [ ! -f $(which nmap) ] || [ ! $(which nmap) = "" ]
 then
 	echo
 	echo "Whoops! Something's wrong!"
-	echo
 	echo "Please install nmap using your package manager"
 	exit
 fi
