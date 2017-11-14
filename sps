@@ -62,4 +62,4 @@ do
 	fi
 done
 
-echo "Scan complete. Port scaned: '$port'. $totalOpen ports open, $totalClosed ports closed."
+echo "Scan complete. Port scaned: '$port'. $totalOpen port(s) open, $totalClosed port(s) closed."
