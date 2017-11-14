@@ -15,8 +15,7 @@ Simple port scanner using nmap.
 
 **To install, run**:  
   1: `git clone git://github.com/BobyMCBobs/simpleportscan.git`  
-  2: `cd simpleportscan/`  
-  3: `sudo install -g root -o root sps /usr/local/bin/sps;`  
+  3: `sudo install -g root -o root simpleportscan/sps /usr/local/bin/sps;`  
 
 **Or in a single command**:  
   `git clone git://github.com/BobyMCBobs/simpleportscan.git;sudo install -g root -o root simpleportscan/sps /usr/local/bin/sps;echo "Simple Port Scanner has been installed."`
