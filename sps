@@ -26,9 +26,9 @@ if [ ! $dhcpBase ] || [ ! $port ] || [ ! $rBottom ]
 then
 	echo
 	echo "How to use:"
-	echo "	spc [port] [IP base] [bottom of range] [top of range, this is optional]"
+	echo "	sps [port] [IP base] [bottom of range] [top of range, this is optional]"
 	echo "Example:"
-	echo "	spc 22 192.168.1 0 64"
+	echo "	sps 22 192.168.1 0 64"
 	echo
 	echo "Exiting."
 	exit
