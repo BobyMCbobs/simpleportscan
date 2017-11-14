@@ -13,7 +13,7 @@ rTop=$4
 
 echo "Welcome to Simple Port Scan."
 
-if [ ! -f $(which nmap) ] || [ ! $(which nmap) = "" ]
+if [ ! -f $(which nmap) ] || [ $(which nmap) = "" ]
 then
 	echo
 	echo "Whoops! Something's wrong!"
